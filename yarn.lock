@@ -5636,6 +5636,7 @@ __metadata:
   bin:
     redwood: ./dist/bins/redwood.js
     rw: ./dist/bins/redwood.js
+    rwfw: ./dist/bins/rwfw.js
     tsc: ./dist/bins/tsc.js
   languageName: unknown
   linkType: soft
@@ -5814,6 +5815,7 @@ __metadata:
     rw: ./dist/bins/redwood.js
     rw-gen: ./dist/bins/rw-gen.js
     rw-gen-watch: ./dist/bins/rw-gen-watch.js
+    rwfw: ./dist/bins/rwfw.js
   languageName: unknown
   linkType: soft
 
@@ -6149,6 +6151,7 @@ __metadata:
     msw: ./dist/bins/msw.js
     redwood: ./dist/bins/redwood.js
     rw: ./dist/bins/redwood.js
+    rwfw: ./dist/bins/rwfw.js
     start-storybook: ./dist/bins/start-storybook.js
     tsc: ./dist/bins/tsc.js
     webpack: ./dist/bins/webpack.js
