@@ -9,9 +9,12 @@
   },
   "license": "MIT",
   "bin": {
+    "cross-env": "./dist/bins/cross-env.js",
     "eslint": "./dist/bins/eslint.js",
+    "nodemon": "./dist/bins/nodemon.js",
     "redwood": "./dist/bins/redwood.js",
-    "rw": "./dist/bins/redwood.js"
+    "rw": "./dist/bins/redwood.js",
+    "rw-gen-watch": "./dist/bins/rw-gen-watch.js"
   },
   "files": [
     "config",
