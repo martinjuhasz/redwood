@@ -15,6 +15,7 @@
     "nodemon": "./dist/bins/nodemon.js",
     "redwood": "./dist/bins/redwood.js",
     "rw": "./dist/bins/redwood.js",
+    "rw-gen": "./dist/bins/rw-gen.js",
     "rw-gen-watch": "./dist/bins/rw-gen-watch.js"
   },
   "files": [
