@@ -32,7 +32,7 @@ await io.cp(
 await exec(`ls ${test_project_path}`)
 
 console.log('Project deps')
-await exec(`yarn project:deps ${test_project_path}`)
+await exec(`yarn project:yarn3 ${test_project_path}`)
 
 console.log('Install')
 await exec('yarn install --no-immutable', null, {

@@ -85,8 +85,8 @@
     "webpack-merge": "5.8.0",
     "webpack-retry-chunk-load-plugin": "3.0.0"
   },
-  "gitHead": "3905ed045508b861b495f8d5630d76c7a157d8f1",
   "devDependencies": {
     "@types/rimraf": "3.0.2"
-  }
+  },
+  "gitHead": "3905ed045508b861b495f8d5630d76c7a157d8f1"
 }
