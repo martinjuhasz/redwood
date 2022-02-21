@@ -54,7 +54,6 @@ console.log('-'.repeat(80))
 cd(frameworkPath)
 const generatePrismaClientPath = 'dist/lib/generatePrismaClient.js'
 await $`cp ${frameworkPath}/packages/cli/${generatePrismaClientPath} ${projectPath}/node_modules/@redwoodjs/cli/${generatePrismaClientPath}`
-await $`bat ${projectPath}/node_modules/@redwoodjs/cli/${generatePrismaClientPath} | rg node_modules/.bin/prisma`
 
 const [runTests] = process.argv.slice(2)
 
