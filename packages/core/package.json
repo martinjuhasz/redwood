@@ -24,7 +24,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "babel src -d dist --extensions \".js,.ts,.tsx\"",
+    "build:js": "babel src -d dist --extensions \".js,.ts,.tsx\"",
     "prepublishOnly": "NODE_ENV=production yarn build"
   },
   "dependencies": {
