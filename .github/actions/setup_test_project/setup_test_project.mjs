@@ -35,7 +35,7 @@ console.log('Project deps')
 await exec(`yarn project:deps ${test_project_path}`)
 
 console.log('Install')
-await exec('yarn install', null, {
+await exec('yarn install --no-immutable', null, {
   cwd: test_project_path,
 })
 
