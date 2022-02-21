@@ -55,7 +55,8 @@ cd(frameworkPath)
 const generatePrismaClientPath = 'dist/lib/generatePrismaClient.js'
 await $`cp ${frameworkPath}/packages/cli/${generatePrismaClientPath} ${projectPath}/node_modules/@redwoodjs/cli/${generatePrismaClientPath}`
 
-const [runTests] = process.argv.slice(2)
+// Need to fix this; was just for local dev ATM
+const [runTests] = process.argv.slice(3)
 
 if (runTests) {
   // rw
