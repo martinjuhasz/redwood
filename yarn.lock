@@ -5772,6 +5772,7 @@ __metadata:
     "@redwoodjs/eslint-config": 0.46.1
     "@redwoodjs/internal": 0.46.1
     "@redwoodjs/testing": 0.46.1
+    "@types/rimraf": 3.0.2
     babel-loader: 8.2.3
     babel-plugin-auto-import: 1.1.0
     babel-plugin-graphql-tag: 3.3.0
