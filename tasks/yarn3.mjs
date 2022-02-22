@@ -54,6 +54,8 @@ console.log('-'.repeat(80))
 cd(frameworkPath)
 const generatePrismaClientPath = 'dist/lib/generatePrismaClient.js'
 await $`cp ${frameworkPath}/packages/cli/${generatePrismaClientPath} ${projectPath}/node_modules/@redwoodjs/cli/${generatePrismaClientPath}`
+const rwfw = 'dist/rwfw.js'
+await $`cp ${frameworkPath}/packages/cli/${rwfw} ${projectPath}/node_modules/@redwoodjs/cli/${rwfw}`
 
 // Need to fix this; was just for local dev ATM
 const [runTests] = process.argv.slice(3)
